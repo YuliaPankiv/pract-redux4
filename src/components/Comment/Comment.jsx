@@ -1,9 +1,9 @@
-import React from 'react';
-import styles from './Comment.module.css';
-import PropTypes from 'prop-types';
-import { TiThumbsUp, TiThumbsDown } from 'react-icons/ti';
-import { formatDateToNow } from '../../helpers/formatDateToNow';
-import { Button } from '../Button/Button';
+import React from "react";
+import styles from "./Comment.module.css";
+import PropTypes from "prop-types";
+import { TiThumbsUp, TiThumbsDown } from "react-icons/ti";
+import { formatDateToNow } from "../../helpers/formatDateToNow";
+import { Button } from "../Button/Button";
 
 export const Comment = ({
   createdAt,
@@ -34,8 +34,7 @@ export const Comment = ({
             <Button counter={thumbsUp} id={id}>
               <TiThumbsUp className={styles.icon} />
             </Button>
-
-            <Button counter={thumbsDown} role='thumbsDown' id={id}>
+            <Button counter={thumbsDown} role="thumbsDown" id={id}>
               <TiThumbsDown className={styles.icon} />
             </Button>
           </div>
