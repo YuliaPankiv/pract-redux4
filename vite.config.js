@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    // base: '/pract-redux4/',
+    base: '/pract-redux4/',
 
   plugins: [react()],
   // server: {
