@@ -6,8 +6,8 @@ export default defineConfig({
     base: '/pract-redux4/',
 
   plugins: [react()],
-  server: {
-    open: '/index.html',
-    port: 8000,
-  },
+  // server: {
+  //   open: '/index.html',
+  //   port: 8000,
+  // },
 });
